@@ -66,6 +66,7 @@ def add_order_george():
     orders_george["customer_address"] =(order_address)
     orders_george["customer_phone"] = (order_number)
     orders_george["Status"] = ('PREPARING')
+    orders_george['Food'] = (food_list[my_order])
     print(orders_george)  
     orders.append(orders_george)
 
